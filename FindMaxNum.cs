@@ -8,7 +8,7 @@ namespace Day13_GenericsProgram
 {
     internal class FindMaxNum
     {
-        public static void MaxValue(float first, float second, float third)
+        public static void MaxValue(string first, string second, string third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
