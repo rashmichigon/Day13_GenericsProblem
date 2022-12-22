@@ -8,22 +8,22 @@ namespace Day13_GenericsProgram
 {
     internal class FindMaxNum
     {
-        public static void MaxValue(int first, int second, int third)
+        public static void MaxValue(float first, float second, float third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
-                Console.WriteLine("{0} is Maximum", first);
+                Console.WriteLine($"{first} is greater");
             }
             else if (second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
             {
-                Console.WriteLine("{0} is  Maximum", second);
+                Console.WriteLine($"{second} is greater");
             }
             else if (third.CompareTo(first) > 0 && third.CompareTo(second) > 0)
             {
-                Console.WriteLine("{0} is Maximum", third);
+                Console.WriteLine($"{third} is greater");
             }
             else
-                Console.WriteLine("All The Numbers Are Equal");
+                Console.WriteLine("All The Numbers are Equal");
         }
     }
 }
